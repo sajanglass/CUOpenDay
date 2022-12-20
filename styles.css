@@ -1,0 +1,95 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	min-height: 100vh;
+	color: #555;
+}
+
+table{
+	width:  1000px;
+	margin: 5px auto;
+}
+
+table th{
+	padding: 5px 0;
+	background-color: #f4f4f4;
+	border:  thin solid #d4d4d4;
+}
+
+table td{
+	padding: 5px;
+	border:  thin solid #d4d4d4;
+	width: auto;
+	text-align: center;
+	background-color: #fff;
+}
+
+table img{
+	width:  auto;
+}
+
+table td.total-price{
+	font-weight: bold;
+	font-size: 16px;
+}
+table a{
+	text-decoration: none;
+	color: darkred;
+	background-color: #ffecef;
+	padding: 5px;
+}
+table a:active{
+	background-color: #ccf4d6;
+	color:  green;
+}
+
+table select{
+	padding: 5px;
+	width:  200px;
+	font-size: 16px;
+	border: thin solid #d4d4d4;
+	background-color: transparent;
+}
+table select:focus{
+	outline: none;
+}
+
+table img{
+	width:  60%;
+}
+
+myInput {
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 22px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+.myTable th, .myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+.myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.myTable tr.header, .myTable tr:hover {
+  background-color: #f1f1f1;
+}
